@@ -1,0 +1,83 @@
+{
+  "aviso": "Corpus e perguntas escritos por quem construiu o sistema: serve para comparar variações de busca, não como estimativa de desempenho em documentos reais.",
+  "perguntas": [
+    {"tipo": "literal", "pergunta": "Quantos dias corridos de férias o colaborador tem direito?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "30 dias corridos de férias"},
+    {"tipo": "parafrase", "pergunta": "Posso dividir minhas férias em partes?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "fracionadas em até três períodos"},
+    {"tipo": "numerica_sigla", "pergunta": "Com quantos dias de antecedência devo pedir as férias?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "pelo menos 45 dias de antecedência"},
+    {"tipo": "parafrase", "pergunta": "Quanto tempo o gestor tem para responder meu pedido de férias?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "até 5 dias úteis para aprovar"},
+    {"tipo": "literal", "pergunta": "Quantas horas posso acumular no banco de horas?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "mais de 40 horas no banco"},
+    {"tipo": "parafrase", "pergunta": "Quantos dias por semana posso trabalhar de casa?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "em até 3 dias por semana"},
+    {"tipo": "literal", "pergunta": "Qual o valor do vale-refeição?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "R$ 45 por dia útil"},
+    {"tipo": "parafrase", "pergunta": "Quanto tempo preciso esperar para poder usar o plano de saúde?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "carência de 60 dias"},
+    {"tipo": "numerica_sigla", "pergunta": "Qual o valor do auxílio home office?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "R$ 120 mensais"},
+    {"tipo": "parafrase", "pergunta": "A empresa paga cursos? Qual o limite por ano?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "até R$ 3.000 por ano"},
+    {"tipo": "numerica_sigla", "pergunta": "Quantos dias dura a licença-paternidade?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "licença-paternidade é de 20 dias"},
+    {"tipo": "parafrase", "pergunta": "Tenho direito a folga se eu me casar?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": "5 dias de licença"},
+
+    {"tipo": "literal", "pergunta": "Qual o tamanho mínimo da senha?", "arquivo": "politica_seguranca_informacao.md", "evidencia": "no mínimo 12 caracteres"},
+    {"tipo": "parafrase", "pergunta": "De quanto em quanto tempo preciso mudar a minha senha?", "arquivo": "politica_seguranca_informacao.md", "evidencia": "a cada 90 dias"},
+    {"tipo": "numerica_sigla", "pergunta": "Preciso de 2FA para acessar os sistemas de produção?", "arquivo": "politica_seguranca_informacao.md", "evidencia": "autenticação em dois fatores (2FA)"},
+    {"tipo": "parafrase", "pergunta": "Como acesso os sistemas internos quando estou em casa?", "arquivo": "politica_seguranca_informacao.md", "evidencia": "só é permitido pela VPN"},
+    {"tipo": "literal", "pergunta": "Posso usar pendrive no trabalho?", "arquivo": "politica_seguranca_informacao.md", "evidencia": "pendrives e discos externos é proibido"},
+    {"tipo": "numerica_sigla", "pergunta": "Em quanto tempo devo avisar sobre um incidente de segurança?", "arquivo": "politica_seguranca_informacao.md", "evidencia": "em até 24 horas"},
+    {"tipo": "parafrase", "pergunta": "Por quantos dias o backup dos servidores é guardado?", "arquivo": "politica_seguranca_informacao.md", "evidencia": "guardado por 30 dias"},
+    {"tipo": "parafrase", "pergunta": "Quais são os níveis de classificação dos dados?", "arquivo": "politica_seguranca_informacao.md", "evidencia": "público, interno, confidencial e restrito"},
+
+    {"tipo": "numerica_sigla", "pergunta": "Qual o tempo de primeira resposta para chamados P1?", "arquivo": "sla_suporte_tecnico.md", "evidencia": "primeira resposta ocorre em até 15 minutos"},
+    {"tipo": "numerica_sigla", "pergunta": "Em quanto tempo um chamado P1 precisa ser resolvido?", "arquivo": "sla_suporte_tecnico.md", "evidencia": "resolução em até 4 horas"},
+    {"tipo": "parafrase", "pergunta": "O suporte funciona de madrugada e no fim de semana?", "arquivo": "sla_suporte_tecnico.md", "evidencia": "24 horas por dia, todos os dias da semana"},
+    {"tipo": "parafrase", "pergunta": "Posso ligar para o suporte por telefone?", "arquivo": "sla_suporte_tecnico.md", "evidencia": "exclusivo para chamados P1 e para clientes do plano Enterprise"},
+    {"tipo": "parafrase", "pergunta": "O que acontece se ninguém responder o meu chamado?", "arquivo": "sla_suporte_tecnico.md", "evidencia": "escalado automaticamente para o gerente de suporte"},
+    {"tipo": "numerica_sigla", "pergunta": "Quanto de crédito o cliente recebe por hora de indisponibilidade?", "arquivo": "sla_suporte_tecnico.md", "evidencia": "crédito de 5% da mensalidade"},
+    {"tipo": "numerica_sigla", "pergunta": "Qual o prazo de resolução do SLA para chamados P3?", "arquivo": "sla_suporte_tecnico.md", "evidencia": "resolução em até 3 dias úteis"},
+
+    {"tipo": "literal", "pergunta": "Quem aprova compras de até mil reais?", "arquivo": "politica_compras_aprovacoes.md", "evidencia": "aprovadas pelo gestor direto"},
+    {"tipo": "parafrase", "pergunta": "Quantas cotações preciso para comprar algo caro?", "arquivo": "politica_compras_aprovacoes.md", "evidencia": "no mínimo três cotações"},
+    {"tipo": "numerica_sigla", "pergunta": "Em quantos dias os fornecedores são pagos?", "arquivo": "politica_compras_aprovacoes.md", "evidencia": "em até 30 dias após o recebimento da nota fiscal"},
+    {"tipo": "parafrase", "pergunta": "Qual o teto da diária de hotel em viagens?", "arquivo": "politica_compras_aprovacoes.md", "evidencia": "R$ 450 por diária"},
+    {"tipo": "numerica_sigla", "pergunta": "Em quanto tempo recebo o reembolso das despesas de viagem?", "arquivo": "politica_compras_aprovacoes.md", "evidencia": "em até 10 dias corridos"},
+
+    {"tipo": "literal", "pergunta": "Quanto tempo dura o período de experiência?", "arquivo": "onboarding_novos_colaboradores.md", "evidencia": "período de experiência dura 90 dias"},
+    {"tipo": "parafrase", "pergunta": "O que é um buddy no onboarding?", "arquivo": "onboarding_novos_colaboradores.md", "evidencia": "chamado de buddy"},
+    {"tipo": "numerica_sigla", "pergunta": "Em quantos dias devo concluir o treinamento de LGPD?", "arquivo": "onboarding_novos_colaboradores.md", "evidencia": "treinamento de LGPD deve ser concluído em até 15 dias"},
+    {"tipo": "parafrase", "pergunta": "Em quanto tempo preciso devolver os equipamentos ao sair da empresa?", "arquivo": "onboarding_novos_colaboradores.md", "evidencia": "devolvidos em até 5 dias úteis"},
+
+    {"tipo": "numerica_sigla", "pergunta": "Quem é o DPO e como falo com ele?", "arquivo": "lgpd_privacidade.md", "evidencia": "dpo@focoti.example"},
+    {"tipo": "parafrase", "pergunta": "Em quanto tempo devo responder o pedido de um titular de dados?", "arquivo": "lgpd_privacidade.md", "evidencia": "respondida em até 15 dias corridos"},
+    {"tipo": "numerica_sigla", "pergunta": "Em quantas horas a empresa comunica um vazamento aos afetados?", "arquivo": "lgpd_privacidade.md", "evidencia": "em até 72 horas após a confirmação"},
+    {"tipo": "parafrase", "pergunta": "Por quanto tempo guardam currículos de quem não foi contratado?", "arquivo": "lgpd_privacidade.md", "evidencia": "mantidos por 1 ano"},
+    {"tipo": "parafrase", "pergunta": "Posso colar dados de clientes em uma ferramenta de IA?", "arquivo": "lgpd_privacidade.md", "evidencia": "proibido enviar dados pessoais de clientes para ferramentas de inteligência artificial"},
+
+    {"tipo": "numerica_sigla", "pergunta": "Até que valor posso aceitar presentes de fornecedores?", "arquivo": "codigo_de_conduta.md", "evidencia": "de até R$ 150"},
+    {"tipo": "parafrase", "pergunta": "Como faço uma denúncia sem me identificar?", "arquivo": "codigo_de_conduta.md", "evidencia": "de forma anônima pelo site do canal de ética"},
+    {"tipo": "parafrase", "pergunta": "Em quanto tempo uma denúncia é concluída?", "arquivo": "codigo_de_conduta.md", "evidencia": "informada em até 30 dias"},
+
+    {"tipo": "literal", "pergunta": "Quanto custa o plano Pro?", "arquivo": "faq_plataforma_planos.md", "evidencia": "plano Pro custa R$ 299 por mês"},
+    {"tipo": "parafrase", "pergunta": "Qual o preço do plano Enterprise?", "arquivo": "faq_plataforma_planos.md", "evidencia": "preço sob consulta"},
+    {"tipo": "parafrase", "pergunta": "Preciso de cartão de crédito para o teste grátis?", "arquivo": "faq_plataforma_planos.md", "evidencia": "sem necessidade de cartão de crédito"},
+    {"tipo": "numerica_sigla", "pergunta": "Qual a disponibilidade garantida da plataforma?", "arquivo": "faq_plataforma_planos.md", "evidencia": "99,9% ao mês"},
+
+    {"tipo": "abrangente", "pergunta": "Do que trata o manual de recursos humanos?", "arquivo": "manual_rh_ferias_beneficios.md", "evidencia": null},
+    {"tipo": "abrangente", "pergunta": "Qual o objetivo da política de segurança da informação?", "arquivo": "politica_seguranca_informacao.md", "evidencia": null},
+    {"tipo": "abrangente", "pergunta": "Sobre o que é o acordo de nível de serviço do suporte?", "arquivo": "sla_suporte_tecnico.md", "evidencia": null},
+    {"tipo": "abrangente", "pergunta": "Resuma a política de compras e aprovações.", "arquivo": "politica_compras_aprovacoes.md", "evidencia": null},
+    {"tipo": "abrangente", "pergunta": "Do que fala o guia de onboarding?", "arquivo": "onboarding_novos_colaboradores.md", "evidencia": null},
+    {"tipo": "abrangente", "pergunta": "Qual o assunto do código de conduta?", "arquivo": "codigo_de_conduta.md", "evidencia": null},
+
+    {"tipo": "fora_dominio", "pergunta": "Qual é a capital da Austrália?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio", "pergunta": "Me dê uma receita de bolo de cenoura.", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio", "pergunta": "Quem ganhou a Copa do Mundo de 2002?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio", "pergunta": "Como faço para trocar o pneu de um carro?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio", "pergunta": "Qual a previsão do tempo para amanhã?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio", "pergunta": "Traduza 'bom dia' para o francês.", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio", "pergunta": "Quantos planetas tem o sistema solar?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio", "pergunta": "Quem escreveu Dom Casmurro?", "arquivo": null, "evidencia": null},
+
+    {"tipo": "fora_dominio_dificil", "pergunta": "Qual o valor do plano de saúde odontológico?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio_dificil", "pergunta": "Qual o limite de diária de alimentação em viagens?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio_dificil", "pergunta": "Por quanto tempo a empresa guarda os dados de fornecedores?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio_dificil", "pergunta": "Qual o prazo de resposta para chamados de prioridade P5?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio_dificil", "pergunta": "A empresa oferece licença para adoção de filhos?", "arquivo": null, "evidencia": null},
+    {"tipo": "fora_dominio_dificil", "pergunta": "Quanto custa cada usuário adicional no plano Enterprise?", "arquivo": null, "evidencia": null}
+  ]
+}

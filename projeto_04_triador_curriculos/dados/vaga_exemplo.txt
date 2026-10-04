@@ -1,0 +1,25 @@
+Vaga: Pessoa Desenvolvedora Backend Python Pleno
+
+Sobre a vaga:
+Atuar na evolução de serviços backend de uma plataforma de pagamentos, com APIs usadas por aplicativos web e móveis.
+
+Responsabilidades:
+- Projetar, implementar e manter serviços backend
+- Modelar e otimizar consultas em bancos relacionais
+- Participar de revisões de código e da definição de arquitetura
+
+Requisitos obrigatórios:
+- Python
+- SQL
+- Git
+- APIs REST
+- 3 anos de experiência com desenvolvimento backend
+- Ensino superior completo em Computação ou áreas afins
+
+Desejável:
+- Docker
+- AWS
+- PostgreSQL
+- FastAPI
+- Testes automatizados
+- Kubernetes

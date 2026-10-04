@@ -1,0 +1,775 @@
+{
+  "aviso": "Todos os dados são fictícios e gerados por dados_ficticios.py.",
+  "hoje": "2026-09-19",
+  "seed": 7,
+  "curriculos": [
+    {
+      "arquivo": "curriculo_01.pdf",
+      "nome": "Fernanda Oliveira",
+      "nota": 0,
+      "arquetipo": "junior_recheado",
+      "anos_reais": 2.1,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "FastAPI",
+        "Testes automatizados",
+        "Kubernetes",
+        "MongoDB",
+        "Django",
+        "Scrum",
+        "Terraform",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_02.pdf",
+      "nome": "Julia Holanda",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 5.2,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "JavaScript",
+        "Flask"
+      ]
+    },
+    {
+      "arquivo": "curriculo_03.pdf",
+      "nome": "Bianca Pacheco",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 5.9,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "AWS",
+        "Docker",
+        "PostgreSQL",
+        "Linux",
+        "JavaScript",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_04.pdf",
+      "nome": "Otavio Souza",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 5.1,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "FastAPI",
+        "Testes automatizados",
+        "Kubernetes",
+        "Linux",
+        "Flask"
+      ]
+    },
+    {
+      "arquivo": "curriculo_05.pdf",
+      "nome": "Otavio Fonseca",
+      "nota": 0,
+      "arquetipo": "sem_git",
+      "anos_reais": 7.0,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "APIs REST",
+        "Docker",
+        "PostgreSQL",
+        "Django",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_06.pdf",
+      "nome": "Kaique Ramos",
+      "nota": 1,
+      "arquetipo": "pleno_basico",
+      "anos_reais": 3.6,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Testes automatizados",
+        "Linux",
+        "MongoDB"
+      ]
+    },
+    {
+      "arquivo": "curriculo_07.pdf",
+      "nome": "Vitoria Dias",
+      "nota": 0,
+      "arquetipo": "area_distante",
+      "anos_reais": 7.8,
+      "habilidades": [
+        "SEO",
+        "Google Ads",
+        "Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "arquivo": "curriculo_08.pdf",
+      "nome": "Otavio Cardoso",
+      "nota": 1,
+      "arquetipo": "pleno_basico",
+      "anos_reais": 4.3,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Airflow",
+        "React"
+      ]
+    },
+    {
+      "arquivo": "curriculo_09.pdf",
+      "nome": "Bianca Klein",
+      "nota": 1,
+      "arquetipo": "pleno_basico",
+      "anos_reais": 4.4,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "MongoDB"
+      ]
+    },
+    {
+      "arquivo": "curriculo_10.pdf",
+      "nome": "Kaique Oliveira",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 5.5,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "PostgreSQL",
+        "Docker",
+        "Kafka",
+        "Redis",
+        "Scrum"
+      ]
+    },
+    {
+      "arquivo": "curriculo_11.pdf",
+      "nome": "Alex Teixeira",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 4.9,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Kubernetes",
+        "FastAPI",
+        "PostgreSQL",
+        "MongoDB",
+        "Linux",
+        "React"
+      ]
+    },
+    {
+      "arquivo": "curriculo_12.pdf",
+      "nome": "Caio Ibrahim",
+      "nota": 3,
+      "arquetipo": "senior_ideal",
+      "anos_reais": 10.7,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "PostgreSQL",
+        "Kubernetes",
+        "AWS",
+        "Testes automatizados",
+        "FastAPI",
+        "Docker",
+        "Airflow",
+        "Redis",
+        "MongoDB",
+        "Django"
+      ]
+    },
+    {
+      "arquivo": "curriculo_13.pdf",
+      "nome": "Natalia Oliveira",
+      "nota": 3,
+      "arquetipo": "senior_ideal",
+      "anos_reais": 9.7,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Kubernetes",
+        "PostgreSQL",
+        "AWS",
+        "Docker",
+        "FastAPI",
+        "Testes automatizados",
+        "Kafka",
+        "Flask",
+        "React"
+      ]
+    },
+    {
+      "arquivo": "curriculo_14.pdf",
+      "nome": "Fernanda Jardim",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 5.3,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "AWS",
+        "FastAPI",
+        "Kafka",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_15.pdf",
+      "nome": "Fernanda Nogueira",
+      "nota": 0,
+      "arquetipo": "senior_outra_stack",
+      "anos_reais": 8.4,
+      "habilidades": [
+        "Java",
+        "Scala",
+        "Spark",
+        "Kafka",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Microsserviços",
+        "Docker",
+        "AWS",
+        "Redis",
+        "Scrum"
+      ]
+    },
+    {
+      "arquivo": "curriculo_16.pdf",
+      "nome": "Vitoria Klein",
+      "nota": 0,
+      "arquetipo": "junior_recheado",
+      "anos_reais": 1.3,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "FastAPI",
+        "Testes automatizados",
+        "Kubernetes",
+        "MongoDB",
+        "React",
+        "Terraform",
+        "Linux",
+        "Django"
+      ]
+    },
+    {
+      "arquivo": "curriculo_17.pdf",
+      "nome": "Otavio Jardim",
+      "nota": 1,
+      "arquetipo": "pleno_basico",
+      "anos_reais": 3.8,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "AWS",
+        "React",
+        "Scrum"
+      ]
+    },
+    {
+      "arquivo": "curriculo_18.pdf",
+      "nome": "Daniela Ibrahim",
+      "nota": 0,
+      "arquetipo": "sem_git",
+      "anos_reais": 6.9,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "APIs REST",
+        "PostgreSQL",
+        "Docker",
+        "Scrum",
+        "Django"
+      ]
+    },
+    {
+      "arquivo": "curriculo_19.pdf",
+      "nome": "Bianca Esteves",
+      "nota": 3,
+      "arquetipo": "senior_ideal",
+      "anos_reais": 8.7,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Kubernetes",
+        "AWS",
+        "Testes automatizados",
+        "PostgreSQL",
+        "Docker",
+        "FastAPI",
+        "React",
+        "Linux",
+        "Pandas"
+      ]
+    },
+    {
+      "arquivo": "curriculo_20.pdf",
+      "nome": "Bianca Dias",
+      "nota": 0,
+      "arquetipo": "sem_git",
+      "anos_reais": 6.2,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "APIs REST",
+        "AWS",
+        "PostgreSQL",
+        "Django",
+        "Pandas"
+      ]
+    },
+    {
+      "arquivo": "curriculo_21.pdf",
+      "nome": "Bianca Lima",
+      "nota": 0,
+      "arquetipo": "junior_recheado",
+      "anos_reais": 1.2,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "FastAPI",
+        "Testes automatizados",
+        "Kubernetes",
+        "Linux",
+        "Airflow",
+        "MongoDB",
+        "Redis",
+        "Scrum"
+      ]
+    },
+    {
+      "arquivo": "curriculo_22.pdf",
+      "nome": "Caio Esteves",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 6.0,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "Kubernetes",
+        "PostgreSQL",
+        "Terraform",
+        "React"
+      ]
+    },
+    {
+      "arquivo": "curriculo_23.pdf",
+      "nome": "Gustavo Dias",
+      "nota": 1,
+      "arquetipo": "pleno_basico",
+      "anos_reais": 3.7,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "FastAPI",
+        "Kafka"
+      ]
+    },
+    {
+      "arquivo": "curriculo_24.pdf",
+      "nome": "Marcos Teixeira",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 6.1,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "Kubernetes",
+        "Scrum",
+        "Django",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_25.pdf",
+      "nome": "Otavio Teixeira",
+      "nota": 0,
+      "arquetipo": "senior_outra_stack",
+      "anos_reais": 8.9,
+      "habilidades": [
+        "Java",
+        "Scala",
+        "Spark",
+        "Kafka",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Microsserviços",
+        "Docker",
+        "AWS",
+        "Linux",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_26.pdf",
+      "nome": "Daniela Ramos",
+      "nota": 3,
+      "arquetipo": "senior_ideal",
+      "anos_reais": 8.8,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Testes automatizados",
+        "Kubernetes",
+        "PostgreSQL",
+        "FastAPI",
+        "Docker",
+        "Redis",
+        "React"
+      ]
+    },
+    {
+      "arquivo": "curriculo_27.pdf",
+      "nome": "Kaique Dias",
+      "nota": 0,
+      "arquetipo": "senior_outra_stack",
+      "anos_reais": 10.0,
+      "habilidades": [
+        "Java",
+        "Scala",
+        "Spark",
+        "Kafka",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Microsserviços",
+        "Docker",
+        "AWS",
+        "MongoDB",
+        "Scrum"
+      ]
+    },
+    {
+      "arquivo": "curriculo_28.pdf",
+      "nome": "Larissa Cardoso",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 5.9,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "FastAPI",
+        "AWS",
+        "Pandas",
+        "React"
+      ]
+    },
+    {
+      "arquivo": "curriculo_29.pdf",
+      "nome": "Rafael Cardoso",
+      "nota": 0,
+      "arquetipo": "junior_recheado",
+      "anos_reais": 1.9,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "FastAPI",
+        "Testes automatizados",
+        "Kubernetes",
+        "Flask",
+        "Scrum",
+        "Kafka",
+        "Django",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_30.pdf",
+      "nome": "Rafael Barros",
+      "nota": 0,
+      "arquetipo": "junior_recheado",
+      "anos_reais": 1.1,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "FastAPI",
+        "Testes automatizados",
+        "Kubernetes",
+        "Flask",
+        "React",
+        "Pandas",
+        "Terraform",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_31.pdf",
+      "nome": "Otavio Pacheco",
+      "nota": 0,
+      "arquetipo": "senior_outra_stack",
+      "anos_reais": 7.4,
+      "habilidades": [
+        "Java",
+        "Scala",
+        "Spark",
+        "Kafka",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Microsserviços",
+        "Docker",
+        "AWS",
+        "Scrum",
+        "MongoDB"
+      ]
+    },
+    {
+      "arquivo": "curriculo_32.pdf",
+      "nome": "Bianca Jardim",
+      "nota": 2,
+      "arquetipo": "pleno_solido",
+      "anos_reais": 5.1,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "PostgreSQL",
+        "Pandas",
+        "Terraform"
+      ]
+    },
+    {
+      "arquivo": "curriculo_33.pdf",
+      "nome": "Bianca Fonseca",
+      "nota": 0,
+      "arquetipo": "senior_outra_stack",
+      "anos_reais": 7.4,
+      "habilidades": [
+        "Java",
+        "Scala",
+        "Spark",
+        "Kafka",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Microsserviços",
+        "Docker",
+        "AWS",
+        "Redis",
+        "Linux"
+      ]
+    },
+    {
+      "arquivo": "curriculo_34.pdf",
+      "nome": "Caio Gomes",
+      "nota": 1,
+      "arquetipo": "pleno_basico",
+      "anos_reais": 3.6,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Kubernetes",
+        "Linux",
+        "Terraform",
+        "Airflow"
+      ]
+    },
+    {
+      "arquivo": "curriculo_35.pdf",
+      "nome": "Daniela Dias",
+      "nota": 0,
+      "arquetipo": "junior_recheado",
+      "anos_reais": 1.4,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "FastAPI",
+        "Testes automatizados",
+        "Kubernetes",
+        "Flask",
+        "Airflow",
+        "JavaScript",
+        "Django",
+        "Redis"
+      ]
+    },
+    {
+      "arquivo": "curriculo_36.pdf",
+      "nome": "Bianca Ramos",
+      "nota": 3,
+      "arquetipo": "senior_ideal",
+      "anos_reais": 10.8,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "PostgreSQL",
+        "Docker",
+        "FastAPI",
+        "AWS",
+        "Testes automatizados",
+        "Kubernetes",
+        "Scrum",
+        "Flask",
+        "Redis",
+        "MongoDB"
+      ]
+    },
+    {
+      "arquivo": "curriculo_37.pdf",
+      "nome": "Helena Ibrahim",
+      "nota": 0,
+      "arquetipo": "area_distante",
+      "anos_reais": 8.3,
+      "habilidades": [
+        "SEO",
+        "Google Ads",
+        "Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "arquivo": "curriculo_38.pdf",
+      "nome": "Rafael Nogueira",
+      "nota": 3,
+      "arquetipo": "senior_ideal",
+      "anos_reais": 10.9,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "Kubernetes",
+        "AWS",
+        "FastAPI",
+        "Testes automatizados",
+        "Docker",
+        "PostgreSQL",
+        "React",
+        "Flask"
+      ]
+    },
+    {
+      "arquivo": "curriculo_39.pdf",
+      "nome": "Igor Fonseca",
+      "nota": 3,
+      "arquetipo": "senior_ideal",
+      "anos_reais": 9.9,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "PostgreSQL",
+        "Testes automatizados",
+        "AWS",
+        "FastAPI",
+        "Docker",
+        "Kubernetes",
+        "Pandas",
+        "MongoDB"
+      ]
+    },
+    {
+      "arquivo": "curriculo_40.pdf",
+      "nome": "Kaique Cardoso",
+      "nota": 3,
+      "arquetipo": "senior_ideal",
+      "anos_reais": 8.7,
+      "habilidades": [
+        "Python",
+        "SQL",
+        "Git",
+        "APIs REST",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "FastAPI",
+        "Testes automatizados",
+        "PostgreSQL",
+        "Kafka",
+        "Flask"
+      ]
+    }
+  ]
+}

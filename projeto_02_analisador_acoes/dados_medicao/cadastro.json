@@ -1,0 +1,46 @@
+{
+  "clientes": [
+    {
+      "id": "rede-exemplo",
+      "nome": "Rede de restaurantes (teste com dados reais)",
+      "perfil": "negocio",
+      "email": "",
+      "janela_dias": 30,
+      "alvos": [
+        {
+          "id": "madero",
+          "nome": "Madero",
+          "papel": "proprio",
+          "termos": [
+            "Madero"
+          ],
+          "tema": "(restaurante OR hamburguer OR rede)",
+          "regiao": "BR"
+        },
+        {
+          "id": "outback",
+          "nome": "Outback",
+          "papel": "concorrente",
+          "termos": [
+            "Outback"
+          ],
+          "tema": "(restaurante OR rede)",
+          "regiao": "BR"
+        },
+        {
+          "id": "setor-food-service",
+          "nome": "Setor de food service",
+          "papel": "tema",
+          "termos": [
+            "food service",
+            "bares e restaurantes"
+          ],
+          "tema": "(Brasil)",
+          "regiao": "BR"
+        }
+      ],
+      "gatilhos": [],
+      "descricao": "rede de restaurantes de comida casual no Brasil, com unidades em shopping"
+    }
+  ]
+}

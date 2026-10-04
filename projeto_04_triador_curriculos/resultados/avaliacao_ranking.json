@@ -1,0 +1,64 @@
+{
+  "curriculos": 40,
+  "metodos": {
+    "so_cosseno": {
+      "ndcg@10": 0.639,
+      "precisao@5 (nota>=2)": 0.8,
+      "nota_0_no_top10": 2,
+      "nota_3_entre_as_8_primeiras": 2
+    },
+    "regras_sem_filtro": {
+      "ndcg@10": 1.0,
+      "precisao@5 (nota>=2)": 1.0,
+      "nota_0_no_top10": 0,
+      "nota_3_entre_as_8_primeiras": 8
+    },
+    "regras_completas": {
+      "ndcg@10": 1.0,
+      "precisao@5 (nota>=2)": 1.0,
+      "nota_0_no_top10": 0,
+      "nota_3_entre_as_8_primeiras": 8
+    }
+  },
+  "erros_do_filtro": {
+    "reprovados_indevidamente (nota>=1)": [],
+    "aprovados_indevidamente (nota=0)": []
+  },
+  "extracao": {
+    "erro_medio_absoluto_de_anos": 0.02,
+    "erro_maximo_de_anos": 0.5,
+    "secoes_reconhecidas": "40/40",
+    "requisitos_precisao": 1.0,
+    "requisitos_revocacao": 1.0
+  },
+  "robustez": {
+    "sem acentos": {
+      "ndcg@10": 1.0,
+      "precisao@5 (nota>=2)": 1.0,
+      "nota_0_no_top10": 0,
+      "nota_3_entre_as_8_primeiras": 8,
+      "mudou_de_aprovado_para_reprovado_ou_vice_versa": 0
+    },
+    "TUDO EM MAIÚSCULAS": {
+      "ndcg@10": 1.0,
+      "precisao@5 (nota>=2)": 1.0,
+      "nota_0_no_top10": 0,
+      "nota_3_entre_as_8_primeiras": 8,
+      "mudou_de_aprovado_para_reprovado_ou_vice_versa": 0
+    },
+    "cabeçalhos em inglês": {
+      "ndcg@10": 1.0,
+      "precisao@5 (nota>=2)": 1.0,
+      "nota_0_no_top10": 0,
+      "nota_3_entre_as_8_primeiras": 8,
+      "mudou_de_aprovado_para_reprovado_ou_vice_versa": 0
+    },
+    "sem cabeçalhos (estrutura não reconhecida)": {
+      "ndcg@10": 1.0,
+      "precisao@5 (nota>=2)": 1.0,
+      "nota_0_no_top10": 0,
+      "nota_3_entre_as_8_primeiras": 8,
+      "mudou_de_aprovado_para_reprovado_ou_vice_versa": 0
+    }
+  }
+}

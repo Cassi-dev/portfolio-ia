@@ -1,0 +1,4 @@
+[server]
+# O editor de vídeo local (P3) recebe arquivos de vídeo; o padrão do Streamlit (200 MB) barra um vídeo de
+# poucos minutos em 1080p. O arquivo inteiro passa pela memória do navegador e do servidor ao enviar.
+maxUploadSize = 2048

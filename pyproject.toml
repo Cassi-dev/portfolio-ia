@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "projetos-ia"
+version = "0.1.0"
+description = "Projetos de IA aplicada (RAG, sentimento, YouTube, Text-to-SQL) com núcleo compartilhado"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["core*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [
+    ".",
+    "projeto_01_chatbot_rag",
+    "projeto_02_analisador_acoes",
+    "projeto_03_resumidor_youtube",
+    "projeto_04_triador_curriculos",
+    "projeto_05_gerador_sql",
+]
+markers = ["network: usa a internet (RSS, Yahoo Finance, YouTube); desligado por padrão"]
+addopts = "-m 'not network' -q"

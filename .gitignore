@@ -1,0 +1,66 @@
+# Ambientes e caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+.env
+
+# Conteúdo pago de estudo (não publicar)
+Conteudo de estudo/
+
+# Documentos de terceiros usados como base de teste do RAG
+projeto_01_chatbot_rag/documentos/*.pdf
+
+# Dados derivados (recriáveis pelos scripts)
+projeto_01_chatbot_rag/banco_vetorial/
+projeto_01_chatbot_rag/banco_vetorial_calibracao/
+projeto_05_gerador_sql/*.db
+
+# Saídas geradas pelo projeto 03
+projeto_03_resumidor_youtube/videos_gerados/
+projeto_03_resumidor_youtube/cortes_gerados/
+projeto_03_resumidor_youtube/audios_gerados/
+projeto_03_resumidor_youtube/frames_gerados/
+projeto_03_resumidor_youtube/output_test*/
+projeto_03_resumidor_youtube/videos_locais/
+
+# Editor / SO
+.vscode/
+.idea/
+Thumbs.db
+
+# Cache de respostas de LLM
+.cache/
+
+# Projeto 01: registros de uso (perguntas digitadas) e artefatos temporários
+projeto_01_chatbot_rag/registros/
+projeto_01_chatbot_rag/banco_vetorial_avaliacao/
+projeto_01_chatbot_rag/_tmp_docs_usuario/
+
+# Projeto 02: base do monitor e cadastro real de clientes (o exemplo fica versionado)
+projeto_02_analisador_acoes/monitor.db
+projeto_02_analisador_acoes/monitorados.json
+# Cardápios de teste (recriáveis com cardapio_ficticio.py)
+projeto_02_analisador_acoes/cardapios_ficticios/
+
+# Radares gerados (contêm dados de cliente)
+projeto_02_analisador_acoes/relatorios/
+
+# Banco da medição (recriável com os rótulos versionados ao lado)
+projeto_02_analisador_acoes/dados_medicao/monitor.db
+
+# Log das rodadas agendadas
+projeto_02_analisador_acoes/logs/
+
+# Persona (Projeto 01): dados pessoais tirados de conversas reais do WhatsApp.
+# Ficam só na máquina — NUNCA no repositório (contêm mensagens de terceiros e
+# a lista de contatos confidenciais).
+projeto_01_chatbot_rag/banco_vetorial.backup*/
+projeto_01_chatbot_rag/perfil_estilo_persona*.json
+projeto_01_chatbot_rag/persona_privado.json
+
+# Projeto � parte (vitrine de anime com dados de exemplo): n�o publicar
+corte_otakubr/

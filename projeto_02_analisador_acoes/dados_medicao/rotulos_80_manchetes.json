@@ -1,0 +1,730 @@
+{
+  "o_que_e": "As 80 manchetes reais coletadas do Google News em 19/09/2026 e rotuladas uma a uma por Claude (Opus 5), um único anotador, sem segunda opinião.",
+  "criterio": "relevante=1 se vale mostrar a um dono de restaurante que acompanha Madero (próprio), Outback (concorrente) e o setor de food service.",
+  "resumo": {
+    "total": 80,
+    "ruido": 47
+  },
+  "manchetes": [
+    {
+      "id": "faec1dd6f4f27d91",
+      "alvo": "madero",
+      "data": "2026-09-19",
+      "fonte": "Tribuna do Paraná",
+      "titulo": "Dono do Madero confirma novo restaurante em cartão postal do Paraná",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "628448556f449d71",
+      "alvo": "outback",
+      "data": "2026-09-19",
+      "fonte": "Jornal de Uberaba",
+      "titulo": "Olésia Borges",
+      "relevante": 0,
+      "motivo": "pagina_de_arquivo"
+    },
+    {
+      "id": "966d59dfdbffa0ed",
+      "alvo": "setor-food-service",
+      "data": "2026-09-19",
+      "fonte": "Portal Nosso Meio",
+      "titulo": "Peppery assume mídia digital de Polenghi Profissional e marcas de food service da Savencia",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "5854250f039838c5",
+      "alvo": "setor-food-service",
+      "data": "2026-09-19",
+      "fonte": "Exame",
+      "titulo": "O que bares e restaurantes precisam saber sobre a reforma tributária",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "e132030e3c6dbe45",
+      "alvo": "madero",
+      "data": "2026-09-18",
+      "fonte": "Bem Paraná",
+      "titulo": "Madero amplia presença na Grande Curitiba com três operações no mesmo endereço",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "f3f4daced353c26f",
+      "alvo": "outback",
+      "data": "2026-09-18",
+      "fonte": "Correio dos Municípios",
+      "titulo": "Restaurante em Maceió leva ‘Bold Flavour’ para a rotina de almoço",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "8fc9ccb2c36ba476",
+      "alvo": "setor-food-service",
+      "data": "2026-09-18",
+      "fonte": "Portal Clube News",
+      "titulo": "Sancionada lei que regulamenta \"taxa de rolha\" nos bares e restaurantes de Teresina",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "3ee95a9a4d40a152",
+      "alvo": "setor-food-service",
+      "data": "2026-09-17",
+      "fonte": "Eu, Rio!",
+      "titulo": "Endividamento e queda no faturamento pressionam bares e restaurantes do Leste Fluminense",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "9230125d5828f057",
+      "alvo": "outback",
+      "data": "2026-09-17",
+      "fonte": "Portal Diário do RN",
+      "titulo": "Semana do Cliente: Outback celebra data com descontos e benefícios para os consumidores",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "d25d4fd9b1be143e",
+      "alvo": "setor-food-service",
+      "data": "2026-09-17",
+      "fonte": "- Bahia Economica",
+      "titulo": "APPS JÁ RESPONDEM POR 58% DAS VENDAS DE DELIVERY -",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "11c21647591ff47a",
+      "alvo": "setor-food-service",
+      "data": "2026-09-17",
+      "fonte": "Giro News",
+      "titulo": "iFood anuncia investimento de R$ 24 bilhões no Brasil",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "d081f6bcbebdf70d",
+      "alvo": "setor-food-service",
+      "data": "2026-09-17",
+      "fonte": "economiasc.com",
+      "titulo": "Alta no consumo em bares e restaurantes abre espaço para novas estratégias de fidelização",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "4e4fb6085766cee1",
+      "alvo": "madero",
+      "data": "2026-09-16",
+      "fonte": "Tribuna do Paraná",
+      "titulo": "Madero inaugura primeira unidade em Pinhais com três operações",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "4d65e0a8ba105729",
+      "alvo": "outback",
+      "data": "2026-09-16",
+      "fonte": "Portal Piauí Hoje",
+      "titulo": "Semana do Cliente tem 15% de desconto em pratos queridinhos do Outback",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "e000c6843caaab00",
+      "alvo": "outback",
+      "data": "2026-09-16",
+      "fonte": "Mídia Paulistana",
+      "titulo": "Cardápio Outback com preços atualizados em 2026",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "349b811c74f3e72e",
+      "alvo": "setor-food-service",
+      "data": "2026-09-16",
+      "fonte": "Marcas pelo Mundo",
+      "titulo": "Unilever Food Solutions coloca chefs no centro da estratégia para o food service",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "1a1acaa27939077c",
+      "alvo": "setor-food-service",
+      "data": "2026-09-16",
+      "fonte": "Giro News",
+      "titulo": "Papa Johns prepara chegada ao Brasil com estreia em São Paulo",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "4e0a996ad0713065",
+      "alvo": "setor-food-service",
+      "data": "2026-09-16",
+      "fonte": "Jornal Panorama Minas",
+      "titulo": "VI Festival Gastronômico de Inhapim 2026 reúne bares e restaurantes no Circuito Gastronômico",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "96a483d1bc1be6e2",
+      "alvo": "setor-food-service",
+      "data": "2026-09-16",
+      "fonte": "Giro News",
+      "titulo": "Arquivo de iFood Move",
+      "relevante": 0,
+      "motivo": "pagina_de_arquivo"
+    },
+    {
+      "id": "817f5d999f27d426",
+      "alvo": "setor-food-service",
+      "data": "2026-09-16",
+      "fonte": "Giro News",
+      "titulo": "Arquivo de Natalie Jellew",
+      "relevante": 0,
+      "motivo": "pagina_de_arquivo"
+    },
+    {
+      "id": "b6055753924c156f",
+      "alvo": "setor-food-service",
+      "data": "2026-09-16",
+      "fonte": "Giro News",
+      "titulo": "Arquivo de UFS",
+      "relevante": 0,
+      "motivo": "pagina_de_arquivo"
+    },
+    {
+      "id": "2ac926d1e8b2a19d",
+      "alvo": "setor-food-service",
+      "data": "2026-09-16",
+      "fonte": "Jornal do Brás",
+      "titulo": "Bares e restaurantes crescem 7,4% em agosto e completam onze meses consecutivos de alta anual, aponta Índice…",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "6649fe3158c4ffd8",
+      "alvo": "outback",
+      "data": "2026-09-15",
+      "fonte": "Gazeta da Semana",
+      "titulo": "Outback cria clube com benefícios personalizados para clientes",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "7c31b681dd488c04",
+      "alvo": "outback",
+      "data": "2026-09-15",
+      "fonte": "folhauberaba.com.br",
+      "titulo": "Outback Steakhouse chega ao Shopping Uberaba com investimento de R$ 6 milhões na primeira unidade da cidade",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "09558f4cefcc16a6",
+      "alvo": "outback",
+      "data": "2026-09-15",
+      "fonte": "JM Online",
+      "titulo": "Com investimento de R$ 6 milhões, Outback vai gerar 94 empregos diretos em Uberaba",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "6a8b61c8a543ed6c",
+      "alvo": "setor-food-service",
+      "data": "2026-09-15",
+      "fonte": "viva.com.br",
+      "titulo": "Vendas de bares e restaurantes sobem 7,4% em agosto",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "b204761c9edc3e4b",
+      "alvo": "setor-food-service",
+      "data": "2026-09-15",
+      "fonte": "Giro News",
+      "titulo": "IA, sabores complexos e redes sociais moldam futuro do food service",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "dcce1bdb34875c98",
+      "alvo": "setor-food-service",
+      "data": "2026-09-15",
+      "fonte": "Bahia Notícias",
+      "titulo": "Bares e restaurantes baianos são premiados no Melhores da Taça 2026; confira destaques",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "fcb71de0ec4b41a0",
+      "alvo": "setor-food-service",
+      "data": "2026-09-15",
+      "fonte": "CNN Brasil",
+      "titulo": "Bares e restaurantes crescem 7,4% em agosto, 11º mês seguido de alta",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "a879eb530a225fbb",
+      "alvo": "madero",
+      "data": "2026-09-14",
+      "fonte": "Blogs O Estado",
+      "titulo": "Shopping da Ilha reúne empresários na segunda edição do Sá Convida",
+      "relevante": 0,
+      "motivo": "nao_e_sobre_o_alvo"
+    },
+    {
+      "id": "007b5c780f542dab",
+      "alvo": "outback",
+      "data": "2026-09-14",
+      "fonte": "bandab.com.br",
+      "titulo": "Veja como funciona o programa de relacionamento e benefícios do Outback",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "01040a6b827fcf39",
+      "alvo": "outback",
+      "data": "2026-09-14",
+      "fonte": "Meio News",
+      "titulo": "Outback fecha mais de 40 restaurantes nos EUA em meio a plano de reestruturação",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "6e17ce463ea3ad1a",
+      "alvo": "setor-food-service",
+      "data": "2026-09-14",
+      "fonte": "Giro News",
+      "titulo": "Cachaça movimenta R$ 2,3 bilhões em bares e restaurantes no Brasil",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "6dbefb046d1dacab",
+      "alvo": "setor-food-service",
+      "data": "2026-09-14",
+      "fonte": "Giro News",
+      "titulo": "Food service cresce no franchising, impulsionado por conveniência e novos hábitos",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "629c08aeeeb5c54b",
+      "alvo": "setor-food-service",
+      "data": "2026-09-14",
+      "fonte": "Jornal do Brás",
+      "titulo": "Dia do Cliente ganha promoções especiais em bares e restaurantes do Rio",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "01620159afd0431b",
+      "alvo": "madero",
+      "data": "2026-09-13",
+      "fonte": "Ric.com.br",
+      "titulo": "Madero chega a Pinhais com operação que reúne três conceitos da marca",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "89970dce02011ef1",
+      "alvo": "setor-food-service",
+      "data": "2026-09-11",
+      "fonte": "E-Commerce Brasil",
+      "titulo": "iFood e WGSN indicam 5 tendências que devem transformar o food service no Brasil - E",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "9ed238fbf21e395c",
+      "alvo": "setor-food-service",
+      "data": "2026-09-11",
+      "fonte": "reporterdiario.com.br",
+      "titulo": "Dia da Cachaça movimenta bares e restaurantes na região com novos rótulos",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "911a00d339e0ade9",
+      "alvo": "setor-food-service",
+      "data": "2026-09-11",
+      "fonte": "livemarketing.com.br",
+      "titulo": "Folha Gourmet Festival estreia com mais de 20 bares e restaurantes",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "561095a0245ce18b",
+      "alvo": "setor-food-service",
+      "data": "2026-09-11",
+      "fonte": "Meio News",
+      "titulo": "IA, umami e virais vão transformar o futuro da alimentação no Brasil, aponta relatório",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "703012cc818fad99",
+      "alvo": "setor-food-service",
+      "data": "2026-09-11",
+      "fonte": "ES Brasil",
+      "titulo": "Bares e restaurantes: 42% do setor teve lucro em julho",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "00baf41b1faa138f",
+      "alvo": "setor-food-service",
+      "data": "2026-09-10",
+      "fonte": "Brasil Inovador",
+      "titulo": "FEAL consolida mercado de food service no Sul do país com foco em inovação e novos negócios em Florianópolis",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "d565163b3d934c2a",
+      "alvo": "setor-food-service",
+      "data": "2026-09-10",
+      "fonte": "CNN Brasil",
+      "titulo": "IA, umami e conteúdos virais: conheça tendências do food service no Brasil",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "2fcc8417ee162911",
+      "alvo": "madero",
+      "data": "2026-09-09",
+      "fonte": "Portal Salvador FM",
+      "titulo": "Confusão entre clientes mobiliza administração de restaurante Madero em Salvador",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "32a04afc2012895e",
+      "alvo": "setor-food-service",
+      "data": "2026-09-09",
+      "fonte": "VEJA",
+      "titulo": "Do MEI ao império da comida: food service vira laboratório de novos empreendedores no Brasil",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "987b9ade6ffbf2fd",
+      "alvo": "setor-food-service",
+      "data": "2026-09-09",
+      "fonte": "Movimento Econômico",
+      "titulo": "XI Imersão Abrasel discute marketing, vendas e food service",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "910184420b44a4e3",
+      "alvo": "setor-food-service",
+      "data": "2026-09-09",
+      "fonte": "Giro News",
+      "titulo": "Pullman inaugura quiosque no Ibirapuera (SP) com cardápio proteico",
+      "relevante": 0,
+      "motivo": "nao_e_sobre_o_alvo"
+    },
+    {
+      "id": "5a6571a538e95724",
+      "alvo": "setor-food-service",
+      "data": "2026-09-09",
+      "fonte": "Jornal do Brás",
+      "titulo": "Abrasel orienta bares e restaurantes a comprar pescado corretamente e evitar golpes",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "4e182d542e3489ff",
+      "alvo": "setor-food-service",
+      "data": "2026-09-08",
+      "fonte": "Rádio Itatiaia",
+      "titulo": "Minascentro recebe a 1ª edição da Connecta Minas, maior feira de food service do estado",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "8daeda8ced851a01",
+      "alvo": "setor-food-service",
+      "data": "2026-09-08",
+      "fonte": "Acorda Cidade",
+      "titulo": "Cartilha auxilia bares e restaurantes sobre transição para a nova tributação",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "0dfd8ca3e6bb685b",
+      "alvo": "setor-food-service",
+      "data": "2026-09-04",
+      "fonte": "Tribuna Online",
+      "titulo": "Reforma tributária em bares e restaurantes: risco ou fake?",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "87ae4e681ad02c50",
+      "alvo": "outback",
+      "data": "2026-09-04",
+      "fonte": "CNN Brasil",
+      "titulo": "Mulher encontra aparelho dentário em prato do Outback",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "d41fa97cbdb503b0",
+      "alvo": "outback",
+      "data": "2026-09-04",
+      "fonte": "Metrópoles",
+      "titulo": "Mulher encontra aparelho dentário dentro de comida em restaurante famoso",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "999beea805b3f5ab",
+      "alvo": "outback",
+      "data": "2026-09-04",
+      "fonte": "MZ Notícia",
+      "titulo": "Cliente relata ter encontrado aparelho dentário em prato do Outback em SP",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "a31fe33e1dd03959",
+      "alvo": "outback",
+      "data": "2026-09-04",
+      "fonte": "osegredo.com.br",
+      "titulo": "Mulher encontra objeto estranho em prato servido por restaurante; veja",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "8826242f5894ec07",
+      "alvo": "setor-food-service",
+      "data": "2026-09-04",
+      "fonte": "Abrasel",
+      "titulo": "Feriado de 7 de setembro deve elevar movimento de bares e restaurantes acima de 10% em algumas cidades",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "c11b33879f9f61bd",
+      "alvo": "setor-food-service",
+      "data": "2026-09-04",
+      "fonte": "Itamaraju Notícias",
+      "titulo": "Turismo e feriado prolongado devem aquecer bares e restaurantes",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "19f453f00e78a7fd",
+      "alvo": "setor-food-service",
+      "data": "2026-09-04",
+      "fonte": "Portal Revista Kdea 360",
+      "titulo": "Em um mercado onde 40% dos bares e restaurantes operam sem lucro, ACOM lança EVEREST 4.0 para tornar a gestão…",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "b4fa50ba89dfbd6a",
+      "alvo": "outback",
+      "data": "2026-09-03",
+      "fonte": "Hugo Gloss",
+      "titulo": "Mulher choca ao revelar o que encontrou em prato de famosa rede de restaurante em SP: ‘Me traumatizou’; empresa se manifesta",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "14264718f08c2c70",
+      "alvo": "setor-food-service",
+      "data": "2026-09-03",
+      "fonte": "MilkPoint",
+      "titulo": "A guerra de preços pode fragilizar a cadeia do food service?",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "ac44bd2d877db8b7",
+      "alvo": "setor-food-service",
+      "data": "2026-09-03",
+      "fonte": "correiodamanha.com.br",
+      "titulo": "Douglas quer fortalecer setor de bares e restaurantes",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "a538f2360ae97c9a",
+      "alvo": "setor-food-service",
+      "data": "2026-09-03",
+      "fonte": "Jornal do Commercio do Amazonas",
+      "titulo": "Grupo Queiroz prepara maior loja de sua história com foco no food service em Manaus",
+      "relevante": 0,
+      "motivo": "regional_irrelevante"
+    },
+    {
+      "id": "5db443a2ec096d93",
+      "alvo": "setor-food-service",
+      "data": "2026-09-02",
+      "fonte": "Portal Revista Kdea 360",
+      "titulo": "Nova portaria do MTE sobre consignado exige atenção de bares e restaurantes",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "17c8487436cb2c81",
+      "alvo": "madero",
+      "data": "2026-09-01",
+      "fonte": "Muralzinho de Ideias",
+      "titulo": "Restaurantes com espaço kids (pagos e gratuitos)",
+      "relevante": 0,
+      "motivo": "nao_e_sobre_o_alvo"
+    },
+    {
+      "id": "c8905ee03bea3d2d",
+      "alvo": "setor-food-service",
+      "data": "2026-09-01",
+      "fonte": "Jornal Correio",
+      "titulo": "Bares e restaurantes podem pagar menos imposto por causa das gorjetas? STJ vai decidir",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "b4cbbcd06debca1b",
+      "alvo": "madero",
+      "data": "2026-08-31",
+      "fonte": "diariodorio.com",
+      "titulo": "Grupo Madero reúne três marcas em novo restaurante no Shopping Metropolitano, na Barra",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "5c54302090d458b0",
+      "alvo": "setor-food-service",
+      "data": "2026-08-30",
+      "fonte": "TNH1",
+      "titulo": "💰 Área infantil pode aumentar o faturamento de bares e restaurantes | #FiqueAlerta",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "5e1204c8b788bb96",
+      "alvo": "outback",
+      "data": "2026-08-28",
+      "fonte": "G1",
+      "titulo": "Expansão do Shopping Uberaba Acelera e Outback Abre Vagas",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "efc77735456cfd5d",
+      "alvo": "setor-food-service",
+      "data": "2026-08-27",
+      "fonte": "Times Brasil | CNBC",
+      "titulo": "Chope vira estratégia para aumentar faturamento de bares e restaurantes",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "df5bf5c46865b93b",
+      "alvo": "setor-food-service",
+      "data": "2026-08-26",
+      "fonte": "Folha de S.Paulo",
+      "titulo": "Painel S.A.: Com a venda de 350 toneladas de guioza congelado, Ajinomoto amplia participação no food service",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "f9de326ab6091b18",
+      "alvo": "setor-food-service",
+      "data": "2026-08-26",
+      "fonte": "REDE BRASIL DE TELEVISÃO",
+      "titulo": "Efeito Ozempic começa a impactar o food service",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "980f2d89e0286584",
+      "alvo": "setor-food-service",
+      "data": "2026-08-26",
+      "fonte": "rotacult.com.br",
+      "titulo": "Hei App da Heineken traz curadoria de bares e restaurantes",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "6031d4dd00d4d5f2",
+      "alvo": "setor-food-service",
+      "data": "2026-08-25",
+      "fonte": "E-Commerce Brasil",
+      "titulo": "Vendas de bares e restaurantes crescem 12,1% em julho - E",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "5091e08bd1f29024",
+      "alvo": "setor-food-service",
+      "data": "2026-08-25",
+      "fonte": "Engarrafador Moderno",
+      "titulo": "Bares e restaurantes avançam pelo décimo mês consecutivo",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "c970f7fb55af27f6",
+      "alvo": "outback",
+      "data": "2026-08-24",
+      "fonte": "Bem Paraná",
+      "titulo": "Happy hour do Outback tem 50% de desconto",
+      "relevante": 1,
+      "motivo": "util"
+    },
+    {
+      "id": "eaa043136e18646c",
+      "alvo": "setor-food-service",
+      "data": "2026-08-24",
+      "fonte": "O GLOBO",
+      "titulo": "Copa do Mundo ajudou a impulsionar vendas de bares e restaurantes em julho",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "ffecf6f1a8ec24f4",
+      "alvo": "setor-food-service",
+      "data": "2026-08-24",
+      "fonte": "Rádio Itatiaia",
+      "titulo": "Adeus à monodose: bares e restaurantes cobrarão suplemento pela nova norma da UE",
+      "relevante": 0,
+      "motivo": "fora_do_brasil"
+    },
+    {
+      "id": "3c187595be60143f",
+      "alvo": "setor-food-service",
+      "data": "2026-08-21",
+      "fonte": "economicnewsbrasil.com.br",
+      "titulo": "M. Dias Branco amplia aposta no food service com nova campanha da Finna 5kg",
+      "relevante": 0,
+      "motivo": "publieditorial"
+    },
+    {
+      "id": "468680f7e1f44813",
+      "alvo": "setor-food-service",
+      "data": "2026-08-21",
+      "fonte": "Diário do Comércio",
+      "titulo": "Connecta Minas estreia em BH e projeta R$ 50 milhões em negócios no setor de food service",
+      "relevante": 0,
+      "motivo": "duplicata"
+    },
+    {
+      "id": "3085281be4cfa135",
+      "alvo": "outback",
+      "data": "2026-08-21",
+      "fonte": "Exame",
+      "titulo": "A cultura de sócio por trás da expansão do Outback: ‘Vamos chegar a 200 lojas’, diz executiva",
+      "relevante": 1,
+      "motivo": "util"
+    }
+  ]
+}

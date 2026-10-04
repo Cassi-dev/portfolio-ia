@@ -1,0 +1,11 @@
+{
+  "contatos_intimos": [
+    "contato_intimo_1"
+  ],
+  "termos_sensiveis": [
+    "termo_sensivel_1"
+  ],
+  "padroes_bloqueados": [
+    "\\bexemplo_bloqueado\\b"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "p1-rag",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "projeto_01_chatbot_rag/app.py", "--server.port", "8511", "--server.headless", "true", "--browser.gatherUsageStats", "false"],
+      "port": 8511
+    },
+    {
+      "name": "p3-video",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "projeto_03_resumidor_youtube/app_youtube.py", "--server.port", "8513", "--server.headless", "true", "--browser.gatherUsageStats", "false"],
+      "port": 8513
+    }
+  ]
+}

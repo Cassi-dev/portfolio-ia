@@ -1,0 +1,447 @@
+{
+  "modo": "gabarito",
+  "acuracia": 1.0,
+  "acertos": 50,
+  "perguntas": 50,
+  "por_categoria": {
+    "filtro": {
+      "acertos": 10,
+      "total": 10,
+      "acuracia": 1.0
+    },
+    "agregacao": {
+      "acertos": 10,
+      "total": 10,
+      "acuracia": 1.0
+    },
+    "juncao": {
+      "acertos": 10,
+      "total": 10,
+      "acuracia": 1.0
+    },
+    "ranking": {
+      "acertos": 10,
+      "total": 10,
+      "acuracia": 1.0
+    },
+    "datas": {
+      "acertos": 5,
+      "total": 5,
+      "acuracia": 1.0
+    },
+    "subconsulta": {
+      "acertos": 5,
+      "total": 5,
+      "acuracia": 1.0
+    }
+  },
+  "uso_llm": {
+    "chamadas_api": 0,
+    "cache_hits": 0,
+    "latencia_media_ms": 0,
+    "tokens_entrada": 0,
+    "tokens_saida": 0
+  },
+  "resultados": [
+    {
+      "pergunta": "Quantos clientes existem?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM clientes",
+      "sql_gabarito": "SELECT COUNT(*) FROM clientes"
+    },
+    {
+      "pergunta": "Quantos clientes são do estado do RS?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM clientes WHERE estado = 'RS'",
+      "sql_gabarito": "SELECT COUNT(*) FROM clientes WHERE estado = 'RS'"
+    },
+    {
+      "pergunta": "Quais são os nomes dos clientes do segmento Fitness?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT nome FROM clientes WHERE segmento = 'Fitness'",
+      "sql_gabarito": "SELECT nome FROM clientes WHERE segmento = 'Fitness'"
+    },
+    {
+      "pergunta": "Quantos pedidos foram cancelados?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM pedidos WHERE status = 'Cancelado'",
+      "sql_gabarito": "SELECT COUNT(*) FROM pedidos WHERE status = 'Cancelado'"
+    },
+    {
+      "pergunta": "Quantos produtos da categoria Bebidas existem?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM produtos WHERE categoria = 'Bebidas'",
+      "sql_gabarito": "SELECT COUNT(*) FROM produtos WHERE categoria = 'Bebidas'"
+    },
+    {
+      "pergunta": "Liste os nomes dos produtos com estoque abaixo de 50 unidades.",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT nome FROM produtos WHERE estoque < 50",
+      "sql_gabarito": "SELECT nome FROM produtos WHERE estoque < 50"
+    },
+    {
+      "pergunta": "Quantos pedidos foram feitos pelo canal PWA TACTO?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM pedidos WHERE canal_venda = 'PWA TACTO'",
+      "sql_gabarito": "SELECT COUNT(*) FROM pedidos WHERE canal_venda = 'PWA TACTO'"
+    },
+    {
+      "pergunta": "Quais cidades possuem clientes cadastrados?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT DISTINCT cidade FROM clientes",
+      "sql_gabarito": "SELECT DISTINCT cidade FROM clientes"
+    },
+    {
+      "pergunta": "Quantos pedidos têm valor total acima de 1000 reais?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM pedidos WHERE valor_total > 1000",
+      "sql_gabarito": "SELECT COUNT(*) FROM pedidos WHERE valor_total > 1000"
+    },
+    {
+      "pergunta": "Qual o preço de venda do produto Café Especial Filtrado?",
+      "categoria": "filtro",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT preco_venda FROM produtos WHERE nome = 'Café Especial Filtrado'",
+      "sql_gabarito": "SELECT preco_venda FROM produtos WHERE nome = 'Café Especial Filtrado'"
+    },
+    {
+      "pergunta": "Qual o faturamento total dos pedidos concluídos?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT ROUND(SUM(valor_total), 2) FROM pedidos WHERE status = 'Concluído'",
+      "sql_gabarito": "SELECT ROUND(SUM(valor_total), 2) FROM pedidos WHERE status = 'Concluído'"
+    },
+    {
+      "pergunta": "Qual o ticket médio dos pedidos concluídos?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT ROUND(AVG(valor_total), 2) FROM pedidos WHERE status = 'Concluído'",
+      "sql_gabarito": "SELECT ROUND(AVG(valor_total), 2) FROM pedidos WHERE status = 'Concluído'"
+    },
+    {
+      "pergunta": "Qual o maior valor de pedido já registrado?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT MAX(valor_total) FROM pedidos",
+      "sql_gabarito": "SELECT MAX(valor_total) FROM pedidos"
+    },
+    {
+      "pergunta": "Qual o menor preço de venda entre os produtos?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT MIN(preco_venda) FROM produtos",
+      "sql_gabarito": "SELECT MIN(preco_venda) FROM produtos"
+    },
+    {
+      "pergunta": "Qual o estoque total de todos os produtos?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT SUM(estoque) FROM produtos",
+      "sql_gabarito": "SELECT SUM(estoque) FROM produtos"
+    },
+    {
+      "pergunta": "Quantas unidades foram vendidas no total?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT SUM(quantidade) FROM itens_pedido",
+      "sql_gabarito": "SELECT SUM(quantidade) FROM itens_pedido"
+    },
+    {
+      "pergunta": "Qual a margem média por produto, considerando preço de venda menos custo?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT ROUND(AVG(preco_venda - preco_custo), 2) FROM produtos",
+      "sql_gabarito": "SELECT ROUND(AVG(preco_venda - preco_custo), 2) FROM produtos"
+    },
+    {
+      "pergunta": "Quantos clientes diferentes já fizeram pedido?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(DISTINCT cliente_id) FROM pedidos",
+      "sql_gabarito": "SELECT COUNT(DISTINCT cliente_id) FROM pedidos"
+    },
+    {
+      "pergunta": "Qual o valor total dos pedidos cancelados?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT ROUND(SUM(valor_total), 2) FROM pedidos WHERE status = 'Cancelado'",
+      "sql_gabarito": "SELECT ROUND(SUM(valor_total), 2) FROM pedidos WHERE status = 'Cancelado'"
+    },
+    {
+      "pergunta": "Qual o preço médio de venda dos produtos da categoria Serviços?",
+      "categoria": "agregacao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT ROUND(AVG(preco_venda), 2) FROM produtos WHERE categoria = 'Serviços'",
+      "sql_gabarito": "SELECT ROUND(AVG(preco_venda), 2) FROM produtos WHERE categoria = 'Serviços'"
+    },
+    {
+      "pergunta": "Quais os nomes dos clientes que fizeram pedidos pelo canal PWA TACTO?",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT DISTINCT c.nome FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.canal_venda = 'PWA TACTO'",
+      "sql_gabarito": "SELECT DISTINCT c.nome FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.canal_venda = 'PWA TACTO'"
+    },
+    {
+      "pergunta": "Qual o faturamento dos pedidos concluídos dos clientes do RS?",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT ROUND(SUM(p.valor_total), 2) FROM pedidos p JOIN clientes c ON c.id = p.cliente_id WHERE c.estado = 'RS' AND p.status = 'Concluído'",
+      "sql_gabarito": "SELECT ROUND(SUM(p.valor_total), 2) FROM pedidos p JOIN clientes c ON c.id = p.cliente_id WHERE c.estado = 'RS' AND p.status = 'Concluído'"
+    },
+    {
+      "pergunta": "Quantas unidades de cada produto foram vendidas? Mostre o nome e a quantidade.",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT pr.nome, SUM(i.quantidade) FROM itens_pedido i JOIN produtos pr ON pr.id = i.produto_id GROUP BY pr.id",
+      "sql_gabarito": "SELECT pr.nome, SUM(i.quantidade) FROM itens_pedido i JOIN produtos pr ON pr.id = i.produto_id GROUP BY pr.id"
+    },
+    {
+      "pergunta": "Quais clientes têm pelo menos um pedido cancelado? Mostre os nomes.",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT DISTINCT c.nome FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.status = 'Cancelado'",
+      "sql_gabarito": "SELECT DISTINCT c.nome FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.status = 'Cancelado'"
+    },
+    {
+      "pergunta": "Qual o faturamento por segmento de cliente, considerando só pedidos concluídos?",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT c.segmento, ROUND(SUM(p.valor_total), 2) FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.status = 'Concluído' GROUP BY c.segmento",
+      "sql_gabarito": "SELECT c.segmento, ROUND(SUM(p.valor_total), 2) FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.status = 'Concluído' GROUP BY c.segmento"
+    },
+    {
+      "pergunta": "Quantos pedidos cada estado gerou? Mostre o estado e a quantidade.",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT c.estado, COUNT(*) FROM clientes c JOIN pedidos p ON p.cliente_id = c.id GROUP BY c.estado",
+      "sql_gabarito": "SELECT c.estado, COUNT(*) FROM clientes c JOIN pedidos p ON p.cliente_id = c.id GROUP BY c.estado"
+    },
+    {
+      "pergunta": "Quais os nomes dos produtos vendidos em pedidos cancelados?",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT DISTINCT pr.nome FROM produtos pr JOIN itens_pedido i ON i.produto_id = pr.id JOIN pedidos p ON p.id = i.pedido_id WHERE p.status = 'Cancelado'",
+      "sql_gabarito": "SELECT DISTINCT pr.nome FROM produtos pr JOIN itens_pedido i ON i.produto_id = pr.id JOIN pedidos p ON p.id = i.pedido_id WHERE p.status = 'Cancelado'"
+    },
+    {
+      "pergunta": "Qual o lucro bruto total (preço unitário menos custo do produto, vezes a quantidade) dos itens de pedidos concluídos?",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT ROUND(SUM(i.quantidade * (i.preco_unitario - pr.preco_custo)), 2) FROM itens_pedido i JOIN produtos pr ON pr.id = i.produto_id JOIN pedidos p ON p.id = i.pedido_id WHERE p.status = 'Concluído'",
+      "sql_gabarito": "SELECT ROUND(SUM(i.quantidade * (i.preco_unitario - pr.preco_custo)), 2) FROM itens_pedido i JOIN produtos pr ON pr.id = i.produto_id JOIN pedidos p ON p.id = i.pedido_id WHERE p.status = 'Concluído'"
+    },
+    {
+      "pergunta": "Quantos clientes do segmento Gastronomia fizeram pedidos?",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(DISTINCT p.cliente_id) FROM pedidos p JOIN clientes c ON c.id = p.cliente_id WHERE c.segmento = 'Gastronomia'",
+      "sql_gabarito": "SELECT COUNT(DISTINCT p.cliente_id) FROM pedidos p JOIN clientes c ON c.id = p.cliente_id WHERE c.segmento = 'Gastronomia'"
+    },
+    {
+      "pergunta": "Qual o faturamento por categoria de produto, somando quantidade vezes preço unitário dos itens?",
+      "categoria": "juncao",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT pr.categoria, ROUND(SUM(i.quantidade * i.preco_unitario), 2) FROM itens_pedido i JOIN produtos pr ON pr.id = i.produto_id GROUP BY pr.categoria",
+      "sql_gabarito": "SELECT pr.categoria, ROUND(SUM(i.quantidade * i.preco_unitario), 2) FROM itens_pedido i JOIN produtos pr ON pr.id = i.produto_id GROUP BY pr.categoria"
+    },
+    {
+      "pergunta": "Qual o faturamento por canal de venda, do maior para o menor, considerando pedidos concluídos?",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT canal_venda, ROUND(SUM(valor_total), 2) AS t FROM pedidos WHERE status = 'Concluído' GROUP BY canal_venda ORDER BY t DESC",
+      "sql_gabarito": "SELECT canal_venda, ROUND(SUM(valor_total), 2) AS t FROM pedidos WHERE status = 'Concluído' GROUP BY canal_venda ORDER BY t DESC"
+    },
+    {
+      "pergunta": "Quais os 3 clientes que mais gastaram em pedidos concluídos? Mostre nome e total.",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT c.nome, ROUND(SUM(p.valor_total), 2) AS t FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.status = 'Concluído' GROUP BY c.id ORDER BY t DESC LIMIT 3",
+      "sql_gabarito": "SELECT c.nome, ROUND(SUM(p.valor_total), 2) AS t FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.status = 'Concluído' GROUP BY c.id ORDER BY t DESC LIMIT 3"
+    },
+    {
+      "pergunta": "Quais os 5 produtos mais vendidos em quantidade? Mostre nome e quantidade.",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT pr.nome, SUM(i.quantidade) AS q FROM itens_pedido i JOIN produtos pr ON pr.id = i.produto_id GROUP BY pr.id ORDER BY q DESC LIMIT 5",
+      "sql_gabarito": "SELECT pr.nome, SUM(i.quantidade) AS q FROM itens_pedido i JOIN produtos pr ON pr.id = i.produto_id GROUP BY pr.id ORDER BY q DESC LIMIT 5"
+    },
+    {
+      "pergunta": "Qual o canal de venda com mais pedidos?",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT canal_venda FROM pedidos GROUP BY canal_venda ORDER BY COUNT(*) DESC LIMIT 1",
+      "sql_gabarito": "SELECT canal_venda FROM pedidos GROUP BY canal_venda ORDER BY COUNT(*) DESC LIMIT 1"
+    },
+    {
+      "pergunta": "Quantos pedidos existem por status?",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT status, COUNT(*) FROM pedidos GROUP BY status",
+      "sql_gabarito": "SELECT status, COUNT(*) FROM pedidos GROUP BY status"
+    },
+    {
+      "pergunta": "Qual o ticket médio por canal de venda, considerando pedidos concluídos?",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT canal_venda, ROUND(AVG(valor_total), 2) FROM pedidos WHERE status = 'Concluído' GROUP BY canal_venda",
+      "sql_gabarito": "SELECT canal_venda, ROUND(AVG(valor_total), 2) FROM pedidos WHERE status = 'Concluído' GROUP BY canal_venda"
+    },
+    {
+      "pergunta": "Qual a cidade com mais clientes?",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT cidade FROM clientes GROUP BY cidade ORDER BY COUNT(*) DESC LIMIT 1",
+      "sql_gabarito": "SELECT cidade FROM clientes GROUP BY cidade ORDER BY COUNT(*) DESC LIMIT 1"
+    },
+    {
+      "pergunta": "Qual o produto com a maior margem unitária (preço de venda menos custo)?",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT nome FROM produtos ORDER BY preco_venda - preco_custo DESC LIMIT 1",
+      "sql_gabarito": "SELECT nome FROM produtos ORDER BY preco_venda - preco_custo DESC LIMIT 1"
+    },
+    {
+      "pergunta": "Quais os 3 pedidos de maior valor? Mostre o id e o valor.",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT id, valor_total FROM pedidos ORDER BY valor_total DESC LIMIT 3",
+      "sql_gabarito": "SELECT id, valor_total FROM pedidos ORDER BY valor_total DESC LIMIT 3"
+    },
+    {
+      "pergunta": "Qual o segmento de cliente com mais pedidos concluídos?",
+      "categoria": "ranking",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT c.segmento FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.status = 'Concluído' GROUP BY c.segmento ORDER BY COUNT(*) DESC LIMIT 1",
+      "sql_gabarito": "SELECT c.segmento FROM clientes c JOIN pedidos p ON p.cliente_id = c.id WHERE p.status = 'Concluído' GROUP BY c.segmento ORDER BY COUNT(*) DESC LIMIT 1"
+    },
+    {
+      "pergunta": "Quantos pedidos foram feitos em agosto de 2026?",
+      "categoria": "datas",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM pedidos WHERE strftime('%Y-%m', data_pedido) = '2026-08'",
+      "sql_gabarito": "SELECT COUNT(*) FROM pedidos WHERE strftime('%Y-%m', data_pedido) = '2026-08'"
+    },
+    {
+      "pergunta": "Qual o faturamento dos pedidos concluídos no mês passado?",
+      "categoria": "datas",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT ROUND(SUM(valor_total), 2) FROM pedidos WHERE status = 'Concluído' AND strftime('%Y-%m', data_pedido) = '2026-08'",
+      "sql_gabarito": "SELECT ROUND(SUM(valor_total), 2) FROM pedidos WHERE status = 'Concluído' AND strftime('%Y-%m', data_pedido) = '2026-08'"
+    },
+    {
+      "pergunta": "Quantos pedidos foram feitos nos últimos 30 dias?",
+      "categoria": "datas",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM pedidos WHERE data_pedido >= date('2026-09-19', '-30 day')",
+      "sql_gabarito": "SELECT COUNT(*) FROM pedidos WHERE data_pedido >= date('2026-09-19', '-30 day')"
+    },
+    {
+      "pergunta": "Qual o faturamento dos pedidos concluídos em cada mês de 2026? Mostre o mês no formato AAAA-MM e o total.",
+      "categoria": "datas",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT strftime('%Y-%m', data_pedido), ROUND(SUM(valor_total), 2) FROM pedidos WHERE status = 'Concluído' AND strftime('%Y', data_pedido) = '2026' GROUP BY 1",
+      "sql_gabarito": "SELECT strftime('%Y-%m', data_pedido), ROUND(SUM(valor_total), 2) FROM pedidos WHERE status = 'Concluído' AND strftime('%Y', data_pedido) = '2026' GROUP BY 1"
+    },
+    {
+      "pergunta": "Quantos clientes se cadastraram no primeiro semestre de 2026?",
+      "categoria": "datas",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM clientes WHERE data_cadastro BETWEEN '2026-01-01' AND '2026-06-30'",
+      "sql_gabarito": "SELECT COUNT(*) FROM clientes WHERE data_cadastro BETWEEN '2026-01-01' AND '2026-06-30'"
+    },
+    {
+      "pergunta": "Quais clientes fizeram mais de 12 pedidos? Mostre os nomes.",
+      "categoria": "subconsulta",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT c.nome FROM clientes c JOIN pedidos p ON p.cliente_id = c.id GROUP BY c.id HAVING COUNT(*) > 12",
+      "sql_gabarito": "SELECT c.nome FROM clientes c JOIN pedidos p ON p.cliente_id = c.id GROUP BY c.id HAVING COUNT(*) > 12"
+    },
+    {
+      "pergunta": "Quantos pedidos têm valor acima do ticket médio geral?",
+      "categoria": "subconsulta",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM pedidos WHERE valor_total > (SELECT AVG(valor_total) FROM pedidos)",
+      "sql_gabarito": "SELECT COUNT(*) FROM pedidos WHERE valor_total > (SELECT AVG(valor_total) FROM pedidos)"
+    },
+    {
+      "pergunta": "Quais produtos têm preço de venda acima da média de preços de todos os produtos?",
+      "categoria": "subconsulta",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT nome FROM produtos WHERE preco_venda > (SELECT AVG(preco_venda) FROM produtos)",
+      "sql_gabarito": "SELECT nome FROM produtos WHERE preco_venda > (SELECT AVG(preco_venda) FROM produtos)"
+    },
+    {
+      "pergunta": "Qual o valor do maior pedido de cada cliente? Mostre nome e valor.",
+      "categoria": "subconsulta",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT c.nome, MAX(p.valor_total) FROM clientes c JOIN pedidos p ON p.cliente_id = c.id GROUP BY c.id",
+      "sql_gabarito": "SELECT c.nome, MAX(p.valor_total) FROM clientes c JOIN pedidos p ON p.cliente_id = c.id GROUP BY c.id"
+    },
+    {
+      "pergunta": "Quantos clientes usaram mais de um canal de venda?",
+      "categoria": "subconsulta",
+      "acertou": true,
+      "degradado": false,
+      "sql_gerado": "SELECT COUNT(*) FROM (SELECT cliente_id FROM pedidos GROUP BY cliente_id HAVING COUNT(DISTINCT canal_venda) > 1)",
+      "sql_gabarito": "SELECT COUNT(*) FROM (SELECT cliente_id FROM pedidos GROUP BY cliente_id HAVING COUNT(DISTINCT canal_venda) > 1)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# Instalação: pip install -r requirements.txt   (a partir da raiz do repositório)
+# Versões exatas de referência: requirements.lock.txt
+
+# Pacote local compartilhado (core/), instalado em modo editável
+-e .
+
+# Comuns a vários projetos
+streamlit
+pandas
+google-genai
+pydantic
+
+# Projeto 01: Chatbot RAG
+pypdf
+chromadb
+sentence-transformers
+
+# Projeto 02: Sentimento de notícias x ações
+feedparser
+yfinance
+plotly
+
+# Projeto 03: Resumidor de vídeos do YouTube + gerador de Reels
+youtube-transcript-api
+yt-dlp
+edge-tts
+pillow
+imageio-ffmpeg
+# reconhecimento de fala local (tempo de cada palavra da legenda; vídeo sem legenda). Modelo de ~480 MB,
+# baixado no primeiro uso para a pasta do Hugging Face do usuário.
+faster-whisper
+
+# Projeto 04: Triador de currículos
+pymupdf
+
+# Projeto 05: Text-to-SQL
+sqlglot

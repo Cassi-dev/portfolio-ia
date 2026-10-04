@@ -1,0 +1,235 @@
+{
+  "perguntas": 68,
+  "resultados": {
+    "plano+vetorial": {
+      "corte_sugerido": -0.157,
+      "distancia_maxima_sugerida": 0.157,
+      "recall@1": 0.889,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 0.941,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 1.0,
+        "numerica_sigla": 1.0,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.824,
+      "auroc_nao_sei_dificeis": 0.599,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.833,
+        "recusa_o_que_nao_tem": 0.714
+      },
+      "latencia_media_ms": 22,
+      "latencia_p95_ms": 25,
+      "blocos": 41
+    },
+    "plano+bm25": {
+      "corte_sugerido": 4.96,
+      "distancia_maxima_sugerida": null,
+      "recall@1": 0.815,
+      "recall@3": 0.944,
+      "recall@5": 0.981,
+      "mrr@5": 0.886,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 0.92,
+        "numerica_sigla": 0.94,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.778,
+      "auroc_nao_sei_dificeis": 0.486,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.87,
+        "recusa_o_que_nao_tem": 0.5
+      },
+      "latencia_media_ms": 1,
+      "latencia_p95_ms": 2,
+      "blocos": 41
+    },
+    "plano+hibrido": {
+      "corte_sugerido": -0.157,
+      "distancia_maxima_sugerida": 0.157,
+      "recall@1": 0.907,
+      "recall@3": 0.981,
+      "recall@5": 1.0,
+      "mrr@5": 0.942,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 0.96,
+        "numerica_sigla": 1.0,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.824,
+      "auroc_nao_sei_dificeis": 0.599,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.833,
+        "recusa_o_que_nao_tem": 0.714
+      },
+      "latencia_media_ms": 23,
+      "latencia_p95_ms": 27,
+      "blocos": 41
+    },
+    "plano+vetorial_rerank": {
+      "corte_sugerido": -1.981,
+      "distancia_maxima_sugerida": null,
+      "recall@1": 0.87,
+      "recall@3": 0.944,
+      "recall@5": 1.0,
+      "mrr@5": 0.917,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 0.92,
+        "numerica_sigla": 0.94,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.854,
+      "auroc_nao_sei_dificeis": 0.691,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.87,
+        "recusa_o_que_nao_tem": 0.714
+      },
+      "latencia_media_ms": 1016,
+      "latencia_p95_ms": 1201,
+      "blocos": 41
+    },
+    "plano+hibrido_rerank": {
+      "corte_sugerido": -1.981,
+      "distancia_maxima_sugerida": null,
+      "recall@1": 0.87,
+      "recall@3": 0.944,
+      "recall@5": 1.0,
+      "mrr@5": 0.917,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 0.92,
+        "numerica_sigla": 0.94,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.854,
+      "auroc_nao_sei_dificeis": 0.691,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.87,
+        "recusa_o_que_nao_tem": 0.714
+      },
+      "latencia_media_ms": 1035,
+      "latencia_p95_ms": 1208,
+      "blocos": 41
+    },
+    "contextual+vetorial": {
+      "corte_sugerido": -0.135,
+      "distancia_maxima_sugerida": 0.135,
+      "recall@1": 0.963,
+      "recall@3": 0.981,
+      "recall@5": 1.0,
+      "mrr@5": 0.976,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 0.96,
+        "numerica_sigla": 1.0,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.819,
+      "auroc_nao_sei_dificeis": 0.586,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.815,
+        "recusa_o_que_nao_tem": 0.643
+      },
+      "latencia_media_ms": 26,
+      "latencia_p95_ms": 30,
+      "blocos": 53
+    },
+    "contextual+bm25": {
+      "corte_sugerido": 2.587,
+      "distancia_maxima_sugerida": null,
+      "recall@1": 0.852,
+      "recall@3": 0.926,
+      "recall@5": 0.981,
+      "mrr@5": 0.896,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 0.88,
+        "numerica_sigla": 0.94,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.767,
+      "auroc_nao_sei_dificeis": 0.457,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.722,
+        "recusa_o_que_nao_tem": 0.5
+      },
+      "latencia_media_ms": 1,
+      "latencia_p95_ms": 2,
+      "blocos": 53
+    },
+    "contextual+hibrido": {
+      "corte_sugerido": -0.135,
+      "distancia_maxima_sugerida": 0.135,
+      "recall@1": 0.944,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 0.969,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 1.0,
+        "numerica_sigla": 1.0,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.819,
+      "auroc_nao_sei_dificeis": 0.586,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.815,
+        "recusa_o_que_nao_tem": 0.643
+      },
+      "latencia_media_ms": 29,
+      "latencia_p95_ms": 36,
+      "blocos": 53
+    },
+    "contextual+vetorial_rerank": {
+      "corte_sugerido": -4.178,
+      "distancia_maxima_sugerida": null,
+      "recall@1": 0.963,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 0.981,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 1.0,
+        "numerica_sigla": 1.0,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.874,
+      "auroc_nao_sei_dificeis": 0.707,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.852,
+        "recusa_o_que_nao_tem": 0.714
+      },
+      "latencia_media_ms": 713,
+      "latencia_p95_ms": 852,
+      "blocos": 53
+    },
+    "contextual+hibrido_rerank": {
+      "corte_sugerido": -4.178,
+      "distancia_maxima_sugerida": null,
+      "recall@1": 0.963,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 0.981,
+      "recall@3_por_tipo": {
+        "literal": 1.0,
+        "parafrase": 1.0,
+        "numerica_sigla": 1.0,
+        "abrangente": 1.0
+      },
+      "auroc_nao_sei": 0.874,
+      "auroc_nao_sei_dificeis": 0.707,
+      "nao_sei_com_calibracao_cruzada": {
+        "acerta_o_que_tem_resposta": 0.852,
+        "recusa_o_que_nao_tem": 0.714
+      },
+      "latencia_media_ms": 691,
+      "latencia_p95_ms": 793,
+      "blocos": 53
+    }
+  }
+}

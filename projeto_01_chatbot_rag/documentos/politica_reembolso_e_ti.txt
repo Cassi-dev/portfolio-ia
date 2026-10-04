@@ -1,0 +1,15 @@
+﻿MANUAL DE POLÍTICAS INTERNAS - FOCO TI
+
+SEÇÃO 1: POLÍTICA DE REEMBOLSO E CANCELAMENTO
+- O cliente tem prazo de até 7 dias corridos após a contratação para solicitar o reembolso integral sem necessidade de justificativa.
+- Após o período de 7 dias, cancelamentos só serão ressarcidos em caso de falha técnica comprovada que não foi solucionada em até 48 horas pela equipe de suporte.
+- Pagamentos realizados via PIX são restituídos em até 2 horas na mesma chave de origem. Cartão de crédito pode levar até 2 faturas.
+
+SEÇÃO 2: SUPORTE TÉCNICO E SLA
+- Chamados de prioridade Alta (sistema fora do ar): resposta em até 30 minutos, resolução em até 4 horas.
+- Chamados de prioridade Média (lentidão ou erros pontuais): resposta em até 2 horas, resolução em até 12 horas.
+- Horário de atendimento do suporte humanizado: Segunda a Sexta, das 08h às 19h (horário de Brasília).
+
+SEÇÃO 3: SEGURANÇA DA INFORMAÇÃO
+- Nenhum colaborador da FOCO TI está autorizado a solicitar senhas pessoais de clientes por e-mail ou WhatsApp.
+- Todo acesso a ambientes de produção exige autenticação em dois fatores (2FA) obrigatória.

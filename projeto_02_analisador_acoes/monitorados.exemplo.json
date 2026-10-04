@@ -1,0 +1,110 @@
+{
+  "clientes": [
+    {
+      "id": "restaurante-exemplo",
+      "nome": "Restaurante Exemplo (fictício)",
+      "perfil": "negocio",
+      "email": "",
+      "descricao": "restaurante de comida contemporânea em Porto Alegre, com salão e delivery próprio",
+      "janela_dias": 30,
+      "alvos": [
+        {
+          "id": "restaurante-exemplo",
+          "nome": "Restaurante Exemplo",
+          "papel": "proprio",
+          "termos": [
+            "Restaurante Exemplo"
+          ],
+          "tema": "(Porto Alegre)",
+          "regiao": "BR"
+        },
+        {
+          "id": "concorrente-a",
+          "nome": "Concorrente A",
+          "papel": "concorrente",
+          "termos": [
+            "Concorrente A"
+          ],
+          "tema": "(Porto Alegre)",
+          "regiao": "BR"
+        },
+        {
+          "id": "mercado-food-serv",
+          "nome": "Mercado de food service",
+          "papel": "tema",
+          "termos": [
+            "food service",
+            "bares e restaurantes"
+          ],
+          "tema": "(Porto Alegre OR Rio Grande do Sul)",
+          "regiao": "BR"
+        }
+      ],
+      "gatilhos": [
+        "recuperacao judicial",
+        "falencia",
+        "interdicao",
+        "interditado",
+        "fechamento",
+        "fechou as portas",
+        "intoxicacao",
+        "vigilancia sanitaria",
+        "fiscalizacao",
+        "multa",
+        "processo",
+        "denuncia",
+        "inauguracao",
+        "inaugura",
+        "nova unidade",
+        "abre filial",
+        "reforma",
+        "mudanca de endereco"
+      ]
+    },
+    {
+      "id": "carteira-exemplo",
+      "nome": "Carteira de ações (exemplo)",
+      "perfil": "acao",
+      "email": "",
+      "descricao": "",
+      "janela_dias": 30,
+      "alvos": [
+        {
+          "id": "petr4",
+          "nome": "Petrobras",
+          "papel": "proprio",
+          "termos": [
+            "Petrobras",
+            "PETR4"
+          ],
+          "tema": "(ação OR ações OR dividendos OR resultado OR balanço)",
+          "regiao": "BR"
+        },
+        {
+          "id": "vale3",
+          "nome": "Vale",
+          "papel": "concorrente",
+          "termos": [
+            "Vale",
+            "VALE3"
+          ],
+          "tema": "(ação OR ações OR dividendos OR resultado OR balanço)",
+          "regiao": "BR"
+        }
+      ],
+      "gatilhos": [
+        "investigacao",
+        "recuperacao judicial",
+        "fusao",
+        "aquisicao",
+        "oferta publica",
+        "rebaixamento",
+        "delacao",
+        "cvm",
+        "fato relevante",
+        "dividendo extraordinario",
+        "mudanca de comando"
+      ]
+    }
+  ]
+}
