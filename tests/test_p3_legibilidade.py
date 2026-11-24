@@ -2,13 +2,15 @@
 import inspect
 
 import pytest
+from PIL import ImageFont
 
 import editor_reels as ed
 import legendas as lg
 import renderizador_generico as rg
 import transcricao_youtube as ty
 
-FONTE = rg.fonte(True, 52)
+# Fonte embutida do Pillow garante mesma largura em Windows e Linux (CI Ubuntu)
+FONTE = ImageFont.load_default(size=52)
 
 
 # --- quebra de linha (guia da Netflix para português do Brasil) ------------------------------------
